@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+:root {
+    --clr-primary-400: #000;
+    --clr-accent-400: #fff;
+    --clr-accent-100: #fff;
+
+    --clr-neutral-900: #fff;
+    --clr-neutral-100: #fff;
+
+
+    --ff-primary: 'Sans serif' ; // Font family here
+
+    --ff-body: var(--ff-primary);
+    --ff-heading: var(--ff-primary) ;
+
+
+    --fw-regular: 400;
+    --fw-semi-bold: 500;
+    --fw-bold: 700;
+
+    --fs-300: 0.8125rem;
+    --fs-400: 0.8755rem;
+    --fs-500: 0.9375rem;
+    --fs-600: 1rem;
+    --fs-700: 1.875rem;
+    --fs-800: 2.5rem;
+    --fs-900: 3.5rem;
+
+    --fs-body: var(var(--fs-400));
+    --fs-primary-heading: var(var(--fs-800));
+}
